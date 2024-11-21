@@ -1,6 +1,38 @@
+# .streamlit/config.toml
+
 [theme]
-primaryColor = "#1f77b4"
-backgroundColor = "#f0f0f5"
-secondaryBackgroundColor = "#d9d9e3"
-textColor = "#333333"
+# Primary color (used for buttons, sliders, etc.) - A clean, modern blue
+primaryColor = "#007BFF"  # Modern blue (button, links)
+
+# Background color - Light gray background for a clean look
+backgroundColor = "#F8F9FA"  # Light gray background
+
+# Secondary background color - Slightly darker gray for cards, sidebar, etc.
+secondaryBackgroundColor = "#E9ECEF"  # Slightly darker gray for sidebars and cards
+
+# Text color - Dark gray to provide contrast and readability
+textColor = "#343A40"  # Dark gray text for better readability
+
+# Font - Clean, modern sans-serif font
 font = "sans serif"
+
+# Optional: Sidebar customizations
+sidebarBackgroundColor = "#FFFFFF"  # White background for the sidebar
+sidebarTextColor = "#343A40"  # Dark text for sidebar
+sidebarBorderColor = "#DEE2E6"  # Light border for the sidebar
+
+# Optional: Header customizations
+headerBackgroundColor = "#007BFF"  # Match header with primary color
+headerTextColor = "#FFFFFF"  # White text on the blue header
+
+# Optional: Footer customizations (usually not much customizability here)
+footerBackgroundColor = "#343A40"  # Dark footer for contrast
+footerTextColor = "#FFFFFF"  # White text for footer
+
+# Button and alert color customizations
+buttonColor = "#28A745"  # Green button color
+alertColor = "#FFC107"  # Yellow for warning or information alerts
+
+# Link and code styling
+linkColor = "#007BFF"  # Links matching the primary color
+codeColor = "#6C757D"  # Gray color for code blocks
